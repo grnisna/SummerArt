@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+import image1 from './../assets/image1.jpeg';
 
 const RightContentImage = () => {
   return (
-    <div  >
-      <p className='text-xl'> In this 5 dasy class we will explore artists Monet, Matisse, Van Gogh, among others and then recreate paintings using crayon and watercolor. Students will have fun learning about the artists & creating their own inspired by their work. </p>
+
+    <div className="flex items-center justify-center">
+      <div className="lg:w-96 w-48" > <img src={image1} /> </div>
+      <div >
+        <div className="lg:w-48 w-24 m-0" >  <img src={image1} /> </div>
+        <div className="lg:w-48 w-24 m-0" > <img src={image1} /> </div>
+      </div>
     </div>
   )
 }
